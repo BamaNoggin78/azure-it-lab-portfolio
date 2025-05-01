@@ -33,13 +33,43 @@ In this project, I deployed a Windows Server 2022 VM in Microsoft Azure, install
 
 ## 📸 Screenshots
 
-(Screenshots can be uploaded into `projects/azure-iis-webserver/screenshots/`)
+### Azure Configuration
 
-- [ ] Azure VM configuration (size, OS)
-- [ ] NSG showing port 80 allowed
-- [ ] IIS default page in browser
-- [ ] Telnet session returning HTTP 200 OK
-- [ ] curl response showing HTML content
+- **VM Overview**  
+  ![VM Overview](./screenshots/azure-vm-overview.png)
+
+- **NSG Inbound Rule for Port 80**  
+  ![NSG Inbound Rule](./screenshots/nsg-inbound-port80.png)
+
+- **Auto-Shutdown Configuration**  
+  ![Auto Shutdown](./screenshots/auto-shutdown.png)
+
+- **Attached Data Disk**  
+  ![Data Disk](./screenshots/data-disk.png)
+
+---
+
+### Windows Server Environment
+
+- **IIS Role Installed in Server Manager**  
+  ![IIS Role](./screenshots/IIS-Server-Manager.png)
+
+- **IIS Default Page in Browser**  
+  ![IIS Default Page](./screenshots/iis-default-page.png)
+
+- **Role Confirmation via PowerShell (`Get-WindowsFeature`)**  
+  ![Role Installed List](./screenshots/role-installed-list.png)
+
+---
+
+### Web Server Connectivity Tests
+
+- **Telnet Session with Raw HTTP GET Response**  
+  ![Telnet HTTP 200](./screenshots/telnet-connection.png)
+
+- **curl Response Confirming Web Server Reachability**  
+  ![curl Response](./screenshots/curl-response.png)
+
 
 ---
 
