@@ -33,7 +33,7 @@ This project demonstrates how to create and mount an Azure File Share using SMB 
   ![Storage Account](./screenshots/storage-account-and-file-share.png)
 
 - **File Share Created**  
-  ![File Share](./screenshots/file-share-created.png)
+  ![File Share](./screenshots/test-file-share-created.png)
 
 - **Connection Panel with PowerShell Script**  
   ![Connect Blade](./screenshots/connect-panel.png)
@@ -43,10 +43,11 @@ This project demonstrates how to create and mount an Azure File Share using SMB 
 ### Windows Server (Mapped Drive)
 
 - **Mapped Drive Visible in File Explorer**  
-  ![Mapped Drive](./screenshots/shred-drive-visible.png)
+  ![Mapped Drive](./screenshots/shared-drive-visible.png)
 
 - **PowerShell Drive Mounted (`Z:`)**  
   ![PSDrive](./screenshots/psdrive-mounted.png)
+
 
 ---
 
